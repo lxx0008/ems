@@ -1,0 +1,174 @@
+*{
+	color:black;
+}
+body{
+	margin:0px 130px;
+	width:1083px;
+	height:auto;
+	background-color:	#f2f2f2;		
+}
+#main{
+	position: relative;
+	margin-top: 10px;
+}
+#top{
+	background-image: url('../images/top_back.png') ;
+	background-size: 1087px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height:109px;
+	text-align: center;
+}
+#top-nav ul{
+	float:right;
+	margin-right: 20px;
+}
+#top-nav ul li{float:left;}
+#excel_li{display: none;}
+#excel_li ul{float:none;margin:0px;padding:0px;}
+#excel_li ul li{float:none;}
+#up_li{display: none;}
+#up_li ul{float:none;margin:0px;padding:0px;}
+#up_li ul li{float:none;}
+#exit{
+	position:absolute;
+	top:60px;
+	left:1108px;}
+#one{
+	width:168px;
+	height:auto;
+	border-top:0px;
+	float:left;
+	background-color:white;
+}
+#menu ul{
+	margin: 0px;
+	padding:0px;
+}
+#menu ul li{
+	border:1px #aaa solid;
+	padding: 6px 0px;
+	text-align: center;
+}
+#box{
+	background-color:	#C4E1FF;
+	text-align:center;
+	z-index: 100;
+	position:absolute;
+	top:30px;
+	left:168px;
+}
+.two-nav{
+	width:168px;
+	height:128px;
+	float:left;
+	background-color:white;
+}
+.two-nav input{
+	width:90px;
+} 
+#two-2-detail{
+	padding-top: 8px;
+	background-color:white;
+}
+#two-2-detail form{
+	text-align: center;
+}
+#conn{
+	width:738px;
+	height:auto;
+	float:left;
+	
+}
+#two iframe{
+	margin-top:10px;
+	margin-left:3px;
+	float:right;
+	width:900px;
+	height:80%;
+	border:0px;
+}
+#two-3,.two-nav,#one{
+	border: 2px #cccccc solid;
+}
+#two-3{
+	width:168px;
+}
+#two-3-detail ul{
+	margin:0px;
+}
+#two-3-detail ul li{
+	padding:2px 0px;
+	display: none;
+}
+#two-3 img{
+	cursor: pointer;
+}
+#go_back{
+	display:none;
+	position:fixed;
+	top:85%;
+	left:90%;
+	text-align: center;
+}
+#go_back a{
+	cursor: pointer;
+	background-color: #AAAAFF;
+	width:50px;
+	height:50px;
+	display:block;
+}
+#go_back img{
+	padding-top:10px;
+	width:20px;
+	height:30px;
+}
+
+.li1{width:20px;}
+.hide{display:none;}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+.tit{
+	padding:6px;
+	color:white;
+	background-image: url('../images/P3.png');
+}
+.tit span{color:white;}
+.tds{
+	display:block;
+	width:150px;
+	text-align: center;
+	padding:6px;
+}
+.fy{
+ list-style: none;
+ 	margin:10px;
+ }
+ .fy label{
+ 	float:left;
+ 	padding-right:10px;
+ }
+ .fy span{
+ 	padding:5px;
+	font-size: 25px;
+	font-weight: bold;
+	font-color:red;
+ }
+.fy a{
+ padding:5px;
+ font-size:18px;
+ text-decoration: none;
+ background-color:#ccc;
+	 color:white;
+}
+.fy a:hover{
+ background-color:#F00;
+ font-weight: bold;
+}
+ul{padding:0px;}
+li{
+	cursor: pointer;
+	list-style: none;
+}
